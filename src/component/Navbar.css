@@ -1,0 +1,36 @@
+.navbar{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+
+    .logo img{
+        width: 60px;
+    }
+
+    .navlinks{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+
+        ul{
+            display: flex;
+            list-style: none; 
+
+            li{
+                margin-left: 15px;
+                font-size: 1.2rem;
+            }
+        }
+
+        button{
+            padding: 20 40px;
+            font-size: 1.3rem;
+            color: white;
+            background-color: darkred;
+            height: fit-content;
+        }
+    }
+}

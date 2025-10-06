@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+.jara {
+    display: flex;
+    
+    width: 100%;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    .ass{ 
+    background-image: url(../assets/house.jpg);
+    
+
+    }
+    .ass2{
+        background-image: url(../assets/bedroom.jpg);
+    }
+
+.ass3{
+        background-image: url(../assets/kitchen.jpg);
+    }
+    .ass ,.ass2, .ass3{
+        
+       
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    padding:30px;
+        h1 {
+        font-size: 1 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5.5em;
+        color: darkred;
+         }
+
+        p{
+            float: inline-end;
+            margin-top: 15px;
+            font-size: 1em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+        }  
+
+        
+        
+
+
+    }
