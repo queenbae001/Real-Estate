@@ -16,9 +16,7 @@ const footer = () => {
             <p>FAQ</p>
             <p>Blog</p>
             <p>Reviews</p>
-            <p>Terms of Service
-
-</p>
+            <p>Policy of Terms</p>
 
         </div>
         <div className="here">
