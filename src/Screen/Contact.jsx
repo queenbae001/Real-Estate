@@ -5,14 +5,12 @@ import SecondH from '../component/SecondH'
 import ThreeH from '../component/ThreeH'
 import Foot from '../component/Foot'
  import Text from '../component/Text'
+ import Hero2 from '../component/Herocontact'
 
 const Contact = () => {
   return (
     <div>
-        
-        
-        
-        
+        <Hero2/>
         <Text/>
         
 

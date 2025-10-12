@@ -1,28 +1,48 @@
+.foot{
+background-color: rgb(56, 2, 2) ;
+height: 65vh;
+color: rgb(234, 226, 226);
+padding-bottom: 2em;
+}
 .aria {
     display: flex;
     justify-content: space-around; 
-    background-color: gray ;
-}
+    padding: 3em 0.2em;
 
-     .here {
-        text-align: start;
-    
-}
-    .here h1{
-        color: darkred;
+    .here1{
+        img{
+            width: 350px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .side{
+            display: flex;
+
+        img{
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        }
+    }
+
+.here h1{
+        color: rgb(255, 255, 255);
         font-size: 1 2rem;
         font-family: 'Courier New', Courier, monospace;
 
-    } 
-    .mei{
+}   
+p{
+    margin-bottom: 15px;
+}
+} 
+
+.mei{
     text-align: center;
-    background-color: grey;
-
-
-   
 }
 .mei h1{
     font-size: 1rem;
-    color: darkred;
+    color: rgb(255, 255, 255);
     
 }

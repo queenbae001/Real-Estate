@@ -5,6 +5,9 @@
     justify-content: space-between;
     padding: 10px 50px;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.315); 
 
     .logo img{
         width: 60px;
@@ -14,23 +17,42 @@
         display: flex;
         column-gap: 30px;
         align-items: center;
+         
+                 
+       
 
         ul{
             display: flex;
             list-style: none; 
+           
+                 
+
 
             li{
                 margin-left: 15px;
                 font-size: 1.2rem;
+                .link{
+                    color: saddlebrown;
+                }
             }
         }
 
         button{
-            padding: 20 40px;
+            padding: 10px 20px;
             font-size: 1.3rem;
-            color: white;
             background-color: darkred;
-            height: fit-content;
+            border-radius: 20px;
+            transition: 0.8s ease-in-out;
+
+            &:hover{
+                transform: scale(0.8);
+            }
+            
         }
-    }
+         .link{
+color: rgb(247, 246, 246);
+text-decoration: none;
 }
+    }
+    
+    }

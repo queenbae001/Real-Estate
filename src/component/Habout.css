@@ -1,8 +1,8 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.cult{
-    background :url(../assets/hotel1.jpg);
+.cult1{
+    background-image: url(../assets/hotel-9.jpg);
     background-repeat: no-repeat;
     height: 94vh;
     background-size: cover;

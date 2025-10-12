@@ -12,11 +12,11 @@ const Nav = () => {
       </div>
       <div className="navlinks">
         <ul>
-          <li> <Link to='/'>Home</Link> </li>
-          <li> <Link to='/About'>About</Link> </li>
-          <li> <Link to='/Contact'>Contact</Link>  </li>
+          <li> <Link to='/'className="link">Home</Link> </li>
+          <li> <Link to='/About' className="link">About</Link> </li>
+          <li> <Link to='/Contact' className="link">Contact</Link>  </li>
         </ul>
-        <button>Click to Rent</button>
+        <button><Link to='/About'className='link'>Click To Book</Link></button>
       </div>
     </div>
     </>

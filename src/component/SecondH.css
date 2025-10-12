@@ -5,23 +5,23 @@
     
 .jara {
     display: flex;
-    
+    height: 50vh;
     width: 100%;
     padding-top: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
     .ass{ 
-    background-image: url(../assets/house.jpg);
+    background-image: url(../assets/hotel-6.jpg);
     
 
     }
     .ass2{
-        background-image: url(../assets/bedroom.jpg);
+        background-image: url(../assets/hotel3.jpg);
     }
 
 .ass3{
-        background-image: url(../assets/kitchen.jpg);
+        background-image: url(../assets/hotel-9.jpg);
     }
     .ass ,.ass2, .ass3{
         
