@@ -42,10 +42,11 @@
             font-size: 1.3rem;
             background-color: darkred;
             border-radius: 20px;
-            transition: 0.8s ease-in-out;
+            transition: 0.8s ease;
 
             &:hover{
                 transform: scale(0.8);
+                
             }
             
         }

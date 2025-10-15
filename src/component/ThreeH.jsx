@@ -3,8 +3,8 @@ import './ThreeH.css';
 
 const ThreeH = () => {
   return (
-    <div class="parent-card">
-        <div class="card">
+    <div className="parent-card">
+        <div className="card">
             <h1>Room Information</h1>
             <p>Discover our range of modern, fully-equipped <br /> rooms from cozy studios to panoramic suites.</p>
 
